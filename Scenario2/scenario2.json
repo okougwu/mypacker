@@ -29,7 +29,7 @@
         {
             "type": "file",
             "source": "./helloworld.txt",
-            "destination": "/home/ubuntu"     
+            "destination": "/home/ubuntu/scenario2"     
         },
         {
             "type": "shell",
