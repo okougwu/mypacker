@@ -29,13 +29,13 @@
         {
             "type": "file",
             "source": "./helloworld.txt",
-            "destination": "/home/ubuntu/mypacker/Scenario2"     
+            "destination": "/home/ubuntu/"     
         },
         {
             "type": "shell",
             "inline": [
-                "ls -al /home/ubuntu",
-                "cat /home/ubuntu/mypacker/Scenario2/helloworld.txt"
+                "ls -al /home/ubuntu/",
+                "cat /home/ubuntu/helloworld.txt"
             ]
         },
         {
