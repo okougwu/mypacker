@@ -2,8 +2,6 @@
 apt-get update
 apt-get install -y nginx docker.io
 
-usermod -aG ubuntu docker
-
 
 
 
