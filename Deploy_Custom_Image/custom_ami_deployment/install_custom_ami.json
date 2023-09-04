@@ -28,7 +28,7 @@
     "provisioners": [
         {
             "type": "shell",
-            "script": "./install_nginx.sh",
+            "script": "/custom_ami_deployment/install_nginx.sh",
             "execute_command": "{{ .vars }} sudo -E sh '{{ .path }}'", 
             "pause_before": "10s"
         }        
