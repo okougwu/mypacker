@@ -8,6 +8,7 @@ module "develop-vpc" {
 
 provider "aws" {
   region = var.AWS_REGION
+  profile = "munsa" 
 }
 
 
