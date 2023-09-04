@@ -10,8 +10,8 @@ variable "ENVIRONMENT" {
     default = ""
 }
 
-variable "map_public_ip_on_launch" {
-  description = "Specify true to indicate that instances launched into the subnet should be assigned a public IP address. Default is `false`"
-  type        = bool
-  default     = true
-}
+# variable "map_public_ip_on_launch" {
+#   description = "Specify true to indicate that instances launched into the subnet should be assigned a public IP address. Default is `false`"
+#   type        = bool
+#   default     = true
+# }
