@@ -19,7 +19,7 @@ resource "aws_key_pair" "project_key" {
 
 #Secutiry Group for Instances
 resource "aws_security_group" "ssh-sg" {
-  vpc_id      = var.develop-vpc.my_vpc_id
+  vpc_id      = module.develop-vpc.my_vpc_id
   name        = "ssh-sg-${var.ENVIRONMENT}"
   description = "security group that allows ssh traffic"
 
