@@ -34,4 +34,5 @@ output "private_subnets" {
 output "public_subnets" {
   description = "List of IDs of public subnets"
   value       = module.nkwo-vpc.public_subnets
+  map_public_ip_on_launch = var.map_public_ip_on_launch
 }
