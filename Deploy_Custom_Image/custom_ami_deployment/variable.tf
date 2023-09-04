@@ -4,14 +4,14 @@ variable "public_key_path" {
   default = "~/.ssh/project_key.pub"
 }
 
-# variable "VPC_ID" {
-#     type = string
-#     default = ""
-# }
+variable "VPC_ID" {
+    type = string
+    default = ""
+}
 
 variable "ENVIRONMENT" {
     type    = string
-    default = ""
+    default = "development"
 }
 
 variable "AWS_REGION" {
