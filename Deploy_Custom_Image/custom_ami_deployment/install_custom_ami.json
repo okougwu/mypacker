@@ -27,9 +27,10 @@
     ],
     "provisioners": [
         {
-            "type": "file",
-            "source": "./install_nginx.txt",
-            "destination": "/home/ubuntu/"
+            "type": "shell",
+            "script": "./install_nginx.sh",
+            "execute_command": "{{ .Vars }} sudo -E sh '{{ .Path }}'",
+            "pause_before": "10s"
         }       
     ]
 }
